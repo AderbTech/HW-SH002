@@ -9,7 +9,7 @@
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.05,
-        "copper_line_width": 0.2,
+        "copper_line_width": 0.1524,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
@@ -132,7 +132,7 @@
         "max_error": 0.005,
         "min_clearance": 0.1014,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.625,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
@@ -195,9 +195,6 @@
       ],
       "track_widths": [
         0.0,
-        0.15625,
-        0.2,
-        0.3125,
         0.46875,
         0.625,
         0.9375
@@ -492,25 +489,8 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "PCM_JLCPCB"
-    ],
-    "pinned_symbol_libs": [
-      "PCM_JLCPCB-Transistors",
-      "PCM_JLCPCB-Capacitors",
-      "PCM_JLCPCB-Resistors",
-      "PCM_JLCPCB-Diodes",
-      "PCM_JLCPCB-Diode-Packages",
-      "PCM_JLCPCB-Manufacturing",
-      "PCM_JLCPCB-Transistor-Packages",
-      "PCM_JLCPCB-Crystals",
-      "Connector_Generic",
-      "AderbTech",
-      "EasyEDA",
-      "UltraLibrarian",
-      "Snapeda",
-      "Samacsys"
-    ]
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "SH002.kicad_pro",
@@ -520,7 +500,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -531,39 +511,22 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.1524,
         "tuning_profile": "",
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
       },
       {
-        "bus_width": 12,
         "clearance": 0.2,
-        "line_style": 0,
-        "name": "ADC",
+        "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.625,
-        "tuning_profile": "",
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "line_style": 0,
-        "name": "PWR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.46875,
         "tuning_profile": "",
         "via_diameter": 0.45,
-        "via_drill": 0.2,
-        "wire_width": 6
+        "via_drill": 0.2
       }
     ],
     "meta": {
@@ -573,24 +536,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "PWR",
+        "netclass": "GND",
         "pattern": "GND"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "+5V0"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "+VSYS"
-      },
-      {
-        "netclass": "ADC",
-        "pattern": "/ZONES_8W/ADC_ZONE(/ADC_RAW|1/ADC_RAW|2/ADC_RAW|3/ADC_RAW|4/ADC_RAW|5/ADC_RAW|6/ADC_RAW|7/ADC_RAW)"
       }
     ]
   },
@@ -731,108 +678,68 @@
       {
         "filename": "SH002.kicad_sch",
         "name": "SH002",
-        "uuid": "4b702fe3-f2be-4cd3-aea8-168bc8853a6e"
+        "uuid": "f34b2536-55b5-49c9-ba16-0501aafd3871"
       }
     ],
-    "used_designators": "LCD3-5,DBG1-2",
+    "used_designators": "D19,L1,Q3,LCD1",
     "variants": []
   },
   "sheets": [
     [
-      "4b702fe3-f2be-4cd3-aea8-168bc8853a6e",
+      "f34b2536-55b5-49c9-ba16-0501aafd3871",
       "SH002"
     ],
     [
-      "f57c02cd-aac5-4d5c-83fc-e998b0a73b69",
-      "DEBUG"
+      "e4e3a617-f2c7-4c79-8d74-eceaa18d7824",
+      "LED_STATUS"
     ],
     [
-      "72c46102-d19f-4d5f-8567-1cd4fc42e7f9",
-      "ESP32C3"
-    ],
-    [
-      "53fd9689-fc32-4557-9fd7-08fdcb4c956a",
-      "ZONES_8W"
-    ],
-    [
-      "25e534d7-236c-42cf-9a3f-af59b4311ec4",
-      "POWER"
-    ],
-    [
-      "d1ea95d2-ef88-4846-838e-b028492ed2ee",
-      "ADC_ZONE1"
-    ],
-    [
-      "6bb483fe-71fd-4be2-ae48-8a72f9ae99c0",
-      "ADC_ZONE2"
-    ],
-    [
-      "7b984f51-6a55-41f1-ae76-de3c4fef4b07",
-      "ADC_ZONE3"
-    ],
-    [
-      "01817fb7-46c4-45bc-aa17-6c04fbfbfe6e",
-      "ADC_ZONE4"
-    ],
-    [
-      "d38c971b-204f-43c9-a0e2-de4d316e286f",
-      "ADC_ZONE5"
-    ],
-    [
-      "ef642b6f-3d61-49a4-86b1-8b872c05927f",
-      "ADC_ZONE6"
-    ],
-    [
-      "090d09d8-94ec-4b6f-a3cb-5eb131d6b08a",
-      "ADC_ZONE7"
-    ],
-    [
-      "cc1cfcff-dd8f-429f-93da-132fa46b79ff",
-      "WIRESLESS"
-    ],
-    [
-      "48c56959-c9f2-4687-a5a0-3febc3156681",
-      "EXP_ADDR"
-    ],
-    [
-      "b26209c6-b017-486d-abe8-c1b12b9105f0",
-      "LCD_I2C"
-    ],
-    [
-      "ef7cb95d-5277-467c-98f7-6c055176c1a4",
-      "BATTERY"
-    ],
-    [
-      "661987a7-52a9-4ea4-a3ee-0d73fb32b4fe",
-      "RS485"
-    ],
-    [
-      "377f014e-235f-4c7f-aa31-57cf05eab4d1",
-      "STATUS_LED"
-    ],
-    [
-      "19c7db7e-604d-43f5-b095-2b3982355928",
-      "MEMORY"
-    ],
-    [
-      "f1349a7f-7ad1-4b55-b3b2-c144f4cc18e2",
+      "e55653f0-84df-4d57-ae21-33629c275410",
       "STM32"
     ],
     [
-      "98560843-d624-41a8-8390-aa05047c3b70",
-      "OUTPUTS"
+      "b422d485-cadf-43fd-888a-1e1cdce1c124",
+      "KEYPAD"
     ],
     [
-      "6552fb3c-e121-4fe7-a24c-c4f134d60ffc",
-      "ADC_ZONE"
+      "27e34237-922c-45c1-9fa0-0f37c492ad8a",
+      "DEBUG"
     ],
     [
-      "ac8de510-279a-4432-8385-d67468d18eae",
+      "8803d293-00df-4ce4-a46d-b733dc9d6026",
+      "MEMORY"
+    ],
+    [
+      "0194cf7c-59d9-4b0b-9e71-e87655a89e84",
+      "EXPANSION"
+    ],
+    [
+      "2abff612-a45c-490b-b2b7-2fd1e9ba5953",
       "ST7735"
     ],
     [
-      "ef21b9af-8b37-429f-82a1-26fd47c9dbb6",
-      "DEBUG1"
+      "be4c7b69-2dd3-47b4-9f64-b7c274e52053",
+      "POWER"
+    ],
+    [
+      "f2ae1538-f727-443d-be3f-efd5b9ec7c81",
+      "ADC_ZONE"
+    ],
+    [
+      "4bf08ffa-4031-4a33-a702-172ea4acffb2",
+      "PGM"
+    ],
+    [
+      "617cfdc5-a0c9-46eb-8290-b3d4fae8bb01",
+      "PWR_3V3"
+    ],
+    [
+      "edc5cdfd-021b-4d6c-a633-7bdf52d8279c",
+      "BUZZER"
+    ],
+    [
+      "c46ec42e-82c6-4c69-b2c4-0e815b4330fa",
+      "PWR_5V0"
     ]
   ],
   "text_variables": {},

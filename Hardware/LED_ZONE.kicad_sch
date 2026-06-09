@@ -1,0 +1,5350 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "be968147-131d-4be0-a3a0-8335bb8eeb87")
+	(paper "A4")
+	(lib_symbols
+		(symbol "AderbTech:LED, NH-Z3535RGBA-SG"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -2.54 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NH-Z3535RGBA-SG"
+				(at -2.54 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "EASYEDA2KICAD:LED-ARRAY-SMD_6P-L3.7-W3.5-TL-RD"
+				(at -21.59 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2874123.pdf"
+				(at -20.32 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "RGB LED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2874123"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RGB LED "
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "EASYEDA2KICAD:LED_ROHM_SMLVN6 EASYEDA2KICAD:LED-ARRAY-SMD_6P-L3.7-W3.5-TL-RD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED, NH-Z3535RGBA-SG_0_0"
+				(text "B"
+					(at 1.905 6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at 1.905 1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "R"
+					(at 1.905 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED, NH-Z3535RGBA-SG_0_1"
+				(rectangle
+					(start -2.794 -8.382)
+					(end 2.794 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 6.35) (xy 1.27 5.08) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end -1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -1.27)
+					(end -1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -3.81)
+					(end -1.27 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -6.35)
+					(end -1.27 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.35) (xy -1.27 -3.81) (xy 1.27 -5.08) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -1.524 2.286) (xy -0.762 2.286) (xy -1.524 2.286) (xy -1.524 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -1.524 -2.794) (xy -0.762 -2.794) (xy -1.524 -2.794) (xy -1.524 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy -1.524 -7.874) (xy -0.762 -7.874) (xy -1.524 -7.874) (xy -1.524 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 3.81) (xy -0.508 2.286) (xy 0.254 2.286) (xy -0.508 2.286) (xy -0.508 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -0.508 -2.794) (xy 0.254 -2.794) (xy -0.508 -2.794) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -6.35) (xy -0.508 -7.874) (xy 0.254 -7.874) (xy -0.508 -7.874) (xy -0.508 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -6.35) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -6.35) (xy 1.27 -3.81) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED, NH-Z3535RGBA-SG_1_1"
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "RK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "GK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "BA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "RA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Extended:LED, NH-Z3535RGBA-SG"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.2729 8.6978 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "NH-Z3535RGBA-SG"
+				(at -7.62 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "EASYEDA2KICAD:LED-ARRAY-SMD_6P-L3.7-W3.5-TL-RD"
+				(at -21.59 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2874123.pdf"
+				(at -20.32 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "RGB LED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2874123"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RGB LED "
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "EASYEDA2KICAD:LED_ROHM_SMLVN6 EASYEDA2KICAD:LED-ARRAY-SMD_6P-L3.7-W3.5-TL-RD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED, NH-Z3535RGBA-SG_0_0"
+				(text "B"
+					(at 1.905 6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at 1.905 1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "R"
+					(at 1.905 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED, NH-Z3535RGBA-SG_0_1"
+				(rectangle
+					(start -2.794 -8.382)
+					(end 2.794 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 6.35) (xy 1.27 5.08) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end -1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -1.27)
+					(end -1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -3.81)
+					(end -1.27 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -6.35)
+					(end -1.27 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.35) (xy -1.27 -3.81) (xy 1.27 -5.08) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -1.524 2.286) (xy -0.762 2.286) (xy -1.524 2.286) (xy -1.524 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -1.524 -2.794) (xy -0.762 -2.794) (xy -1.524 -2.794) (xy -1.524 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy -1.524 -7.874) (xy -0.762 -7.874) (xy -1.524 -7.874) (xy -1.524 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 3.81) (xy -0.508 2.286) (xy 0.254 2.286) (xy -0.508 2.286) (xy -0.508 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -0.508 -2.794) (xy 0.254 -2.794) (xy -0.508 -2.794) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -6.35) (xy -0.508 -7.874) (xy 0.254 -7.874) (xy -0.508 -7.874) (xy -0.508 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -6.35) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -6.35) (xy 1.27 -3.81) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED, NH-Z3535RGBA-SG_1_1"
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "RK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "GK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "BA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "RA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Extended:RES, ARRAY 4 RES 470Ω"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RN"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4D03WGJ0471T5E"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "EASYEDA2KICAD:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604442566352400384"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "RES ARRAY 4 RES 470Ω 0603x4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C25510"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PartID" "AP3012"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C25510"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RES, ARRAY 4 RES 470Ω_0_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 8.89 2.413)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -0.635 1.905)
+					(end 0.635 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.905 1.905)
+					(end 3.175 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.445 1.905)
+					(end 5.715 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.905) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.985 1.905)
+					(end 8.255 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 1.905) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES, ARRAY 4 RES 470Ω_1_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 270)
+					(length 2.54)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 270)
+					(length 2.54)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 68.58 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ef10e26-cb8c-4ade-a5c6-bdad133ecd9a")
+	)
+	(junction
+		(at 68.58 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f3c471a-5290-447d-a831-7b07dfc42c79")
+	)
+	(junction
+		(at 68.58 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34fb2884-368a-43a3-85ae-a2dbd894f60d")
+	)
+	(junction
+		(at 68.58 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37eb729d-b017-47ff-a1f0-a7470acda459")
+	)
+	(junction
+		(at 68.58 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f6626b4-dbd2-42f2-a97e-decd8003202e")
+	)
+	(junction
+		(at 172.72 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d4c1ca9-9292-41e4-99b5-e6efd6218dfa")
+	)
+	(junction
+		(at 172.72 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "647f3d50-932c-4f25-8c2d-0bc77172c0cb")
+	)
+	(junction
+		(at 172.72 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8708f3bc-13a3-4472-ae05-ccea60c86426")
+	)
+	(junction
+		(at 68.58 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89d6bed1-7816-49de-a7a6-b30b86a32992")
+	)
+	(junction
+		(at 172.72 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ae549ed-e75f-4494-887e-09d98f0feeb3")
+	)
+	(junction
+		(at 172.72 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2b90331-e660-4041-8ff7-8e35b7bd0899")
+	)
+	(junction
+		(at 68.58 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a48727ac-08a9-46ac-b0d6-245d37b2f188")
+	)
+	(junction
+		(at 172.72 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2b58893-ca6c-4b78-9ef6-9a9191925019")
+	)
+	(junction
+		(at 68.58 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3a5f82f-030b-44e1-ada7-fcafeba553b9")
+	)
+	(junction
+		(at 68.58 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6bc085f-d994-459b-a57c-f07ac2a8546d")
+	)
+	(junction
+		(at 172.72 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdc2e57f-2ab5-4aa8-8c3a-6050b11ac244")
+	)
+	(junction
+		(at 68.58 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d72087b6-88da-4f13-b408-05251f0b86d4")
+	)
+	(junction
+		(at 68.58 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e038fb91-cf5e-476f-a25b-0d9ba049f5b3")
+	)
+	(junction
+		(at 172.72 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e507d49e-bde1-4491-895f-9a04af2d770f")
+	)
+	(junction
+		(at 172.72 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e89ae6e5-46d2-4bf1-8642-4332f8b89ddd")
+	)
+	(junction
+		(at 172.72 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed05e4f4-32aa-47de-929d-7f57f03c5636")
+	)
+	(junction
+		(at 172.72 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fab380c2-92f7-41c9-a39a-b9666722475e")
+	)
+	(no_connect
+		(at 208.28 99.06)
+		(uuid "034f03e0-9ed9-401c-b66a-1d06ef7ba53e")
+	)
+	(no_connect
+		(at 198.12 53.34)
+		(uuid "084d1947-cd46-4546-bd1b-541708628635")
+	)
+	(no_connect
+		(at 104.14 53.34)
+		(uuid "243ec9b2-62b0-43d7-aa9f-14b5e4602e0d")
+	)
+	(no_connect
+		(at 208.28 76.2)
+		(uuid "266db628-1ef8-4958-b470-efd912142ea8")
+	)
+	(no_connect
+		(at 208.28 121.92)
+		(uuid "3af4d3d4-f9f8-4ad8-afa0-ced244c35383")
+	)
+	(no_connect
+		(at 104.14 76.2)
+		(uuid "3ecc56d5-8379-4c26-a670-7c97fd38d792")
+	)
+	(no_connect
+		(at 93.98 76.2)
+		(uuid "414ec251-b6c2-483f-9218-854f055ba87e")
+	)
+	(no_connect
+		(at 198.12 76.2)
+		(uuid "4b6c5384-22c8-421d-bfa9-4008d632f66a")
+	)
+	(no_connect
+		(at 104.14 121.92)
+		(uuid "51c2be23-1679-43ba-8bc6-541f563d2af5")
+	)
+	(no_connect
+		(at 208.28 53.34)
+		(uuid "67fbbaf7-9132-4dfc-9dd1-bf86110a6ecf")
+	)
+	(no_connect
+		(at 93.98 121.92)
+		(uuid "75f80859-ad69-4ea0-8d4c-8874e260b138")
+	)
+	(no_connect
+		(at 93.98 53.34)
+		(uuid "913ceb4d-9df4-44b3-a262-da142cd08804")
+	)
+	(no_connect
+		(at 93.98 99.06)
+		(uuid "98ccd070-a7eb-416f-98cf-b179e61df492")
+	)
+	(no_connect
+		(at 198.12 121.92)
+		(uuid "a76bbd8a-5ad6-4c05-8fd1-fa0176b01185")
+	)
+	(no_connect
+		(at 104.14 99.06)
+		(uuid "cd9db070-43ff-43b9-9b3b-edc07026ec18")
+	)
+	(no_connect
+		(at 198.12 99.06)
+		(uuid "ed8a2ff2-eda0-4faf-9aec-a0143b369373")
+	)
+	(wire
+		(pts
+			(xy 198.12 78.74) (xy 187.96 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0022eb9a-724f-4b67-b1ec-8b5929067306")
+	)
+	(wire
+		(pts
+			(xy 198.12 81.28) (xy 193.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0136bb61-5a50-420c-a544-b5db30a4b7d9")
+	)
+	(wire
+		(pts
+			(xy 172.72 55.88) (xy 172.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d0cbdb-d6d9-4d16-a38e-9a3d758e101e")
+	)
+	(wire
+		(pts
+			(xy 198.12 58.42) (xy 193.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b61084-39d4-4918-a846-9092a55dcdb4")
+	)
+	(wire
+		(pts
+			(xy 172.72 119.38) (xy 177.8 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02eccc9d-5042-457f-826e-b05476be80f6")
+	)
+	(wire
+		(pts
+			(xy 193.04 104.14) (xy 193.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03456a2f-29a6-459e-a753-0cf1aaa7e4ca")
+	)
+	(wire
+		(pts
+			(xy 68.58 60.96) (xy 68.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0461210e-6260-4140-8622-112bd9131cdb")
+	)
+	(wire
+		(pts
+			(xy 172.72 73.66) (xy 172.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c17def-37f7-4e5f-b620-1cdea35cc275")
+	)
+	(wire
+		(pts
+			(xy 198.12 96.52) (xy 187.96 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051b85ea-eb91-4cbd-9e13-038ec3393541")
+	)
+	(wire
+		(pts
+			(xy 88.9 81.28) (xy 88.9 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076e3095-9d12-414a-b54c-2f8e919eb271")
+	)
+	(wire
+		(pts
+			(xy 193.04 106.68) (xy 187.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07e12eda-ae88-484c-a48e-f559c02e14c7")
+	)
+	(wire
+		(pts
+			(xy 172.72 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099a28d2-2b14-4d37-9f8d-ccf70d1bc5e1")
+	)
+	(wire
+		(pts
+			(xy 193.04 58.42) (xy 193.04 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1e859d-4dd3-41d6-a4cb-3dc8d56c0056")
+	)
+	(wire
+		(pts
+			(xy 109.22 127) (xy 104.14 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bcad347-6ced-4c08-a084-9c4d35b67181")
+	)
+	(wire
+		(pts
+			(xy 68.58 78.74) (xy 68.58 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cea54ef-b2bc-43e2-aec1-4a9e7e698c2a")
+	)
+	(wire
+		(pts
+			(xy 172.72 106.68) (xy 172.72 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e6eece5-d134-4b21-9d47-5c9dade6dba7")
+	)
+	(wire
+		(pts
+			(xy 172.72 101.6) (xy 172.72 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d0f968-c9a3-4076-a734-cdfc86a18fba")
+	)
+	(wire
+		(pts
+			(xy 68.58 119.38) (xy 68.58 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1575546d-694c-43a5-8d09-0033ce78e399")
+	)
+	(wire
+		(pts
+			(xy 93.98 81.28) (xy 88.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e4455a-57fd-4854-b8c1-de5e9d30d392")
+	)
+	(wire
+		(pts
+			(xy 198.12 73.66) (xy 187.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ed8c72-5596-496f-8576-f4bd85b29ee2")
+	)
+	(wire
+		(pts
+			(xy 172.72 45.72) (xy 172.72 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223f1aa8-ea47-492d-85e8-afbdad8dc41d")
+	)
+	(wire
+		(pts
+			(xy 88.9 104.14) (xy 88.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "251ac310-7538-4da7-bce8-bab41ee7a349")
+	)
+	(wire
+		(pts
+			(xy 172.72 96.52) (xy 172.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25df94c5-4118-4e04-a4a2-b9ec000886a8")
+	)
+	(wire
+		(pts
+			(xy 177.8 60.96) (xy 172.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271ec2da-7e49-46a4-a7d2-01f746c6a257")
+	)
+	(wire
+		(pts
+			(xy 193.04 60.96) (xy 187.96 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ee906d-42d6-4d64-a794-8edda0b61061")
+	)
+	(wire
+		(pts
+			(xy 213.36 55.88) (xy 208.28 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6b6b97-2c97-4731-8323-dc7c8e184954")
+	)
+	(wire
+		(pts
+			(xy 213.36 119.38) (xy 208.28 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3149df-e54c-4f15-a4b5-7e4fc642c466")
+	)
+	(wire
+		(pts
+			(xy 109.22 101.6) (xy 104.14 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef01faf-53a8-42fd-8dc4-5cc84ebf5ce8")
+	)
+	(wire
+		(pts
+			(xy 68.58 83.82) (xy 73.66 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e5f56d-4c59-4ff5-9f32-06061c32017e")
+	)
+	(wire
+		(pts
+			(xy 68.58 101.6) (xy 73.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355b0c55-4c1b-4f98-be3a-ca9305810821")
+	)
+	(wire
+		(pts
+			(xy 68.58 55.88) (xy 73.66 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366e6dbb-821a-4447-a282-c91d70733a0a")
+	)
+	(wire
+		(pts
+			(xy 172.72 60.96) (xy 172.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36eb36d0-f1d0-4a16-9084-3438ec1f5caf")
+	)
+	(wire
+		(pts
+			(xy 213.36 127) (xy 208.28 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b183ef-f0db-4692-86c8-365725c7aa85")
+	)
+	(wire
+		(pts
+			(xy 109.22 119.38) (xy 104.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3913d019-35d5-4a4a-9f06-25ccc6d091b4")
+	)
+	(wire
+		(pts
+			(xy 213.36 96.52) (xy 208.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1eb947-2c42-4f01-abeb-45325e016110")
+	)
+	(wire
+		(pts
+			(xy 88.9 127) (xy 88.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41869f47-58a9-4271-81fe-b35dc67b9e36")
+	)
+	(wire
+		(pts
+			(xy 88.9 106.68) (xy 83.82 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438b04a6-b1c4-4d02-ab6c-a724a8099524")
+	)
+	(wire
+		(pts
+			(xy 88.9 60.96) (xy 83.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475c8937-0bf7-4a9a-b119-ca91cf0dae44")
+	)
+	(wire
+		(pts
+			(xy 213.36 81.28) (xy 208.28 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae51b2f-a5b3-4f07-94a1-090f2f91d649")
+	)
+	(wire
+		(pts
+			(xy 198.12 119.38) (xy 187.96 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0a044d-2a82-4b56-bab6-1544f7bbdb6a")
+	)
+	(wire
+		(pts
+			(xy 177.8 129.54) (xy 172.72 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52de1996-719b-4931-9b41-5dad2a1597d6")
+	)
+	(wire
+		(pts
+			(xy 213.36 124.46) (xy 208.28 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5455a5f2-a545-42f9-8b72-7088f5b17a82")
+	)
+	(wire
+		(pts
+			(xy 172.72 106.68) (xy 177.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59be6b78-6c69-4a83-81f7-a6e4eac4eeb2")
+	)
+	(wire
+		(pts
+			(xy 93.98 58.42) (xy 88.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd7ad7f-ca8d-407d-8b3d-87a530e6c735")
+	)
+	(wire
+		(pts
+			(xy 172.72 55.88) (xy 172.72 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c33677c-bdef-41f7-965d-a09e41e94135")
+	)
+	(wire
+		(pts
+			(xy 109.22 81.28) (xy 104.14 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f3fa088-c10b-476b-a329-3507a963229b")
+	)
+	(wire
+		(pts
+			(xy 193.04 129.54) (xy 187.96 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6096c15c-ba7e-4b38-9028-39a9e9a07a84")
+	)
+	(wire
+		(pts
+			(xy 213.36 104.14) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c87e14-f6bb-454b-9fc4-76c1285ce656")
+	)
+	(wire
+		(pts
+			(xy 109.22 73.66) (xy 104.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c04a741-9aad-411d-a0bb-63824b42f95b")
+	)
+	(wire
+		(pts
+			(xy 68.58 50.8) (xy 73.66 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d47ad5e-53d5-41fb-a165-061446acf5e4")
+	)
+	(wire
+		(pts
+			(xy 93.98 55.88) (xy 83.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df581f5-f4dd-4484-a5ab-c32ff89a5d8c")
+	)
+	(wire
+		(pts
+			(xy 198.12 127) (xy 193.04 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70427420-25cd-4c04-aecb-2de9dde3a397")
+	)
+	(wire
+		(pts
+			(xy 213.36 58.42) (xy 208.28 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72354a75-bd42-4940-89bd-d76692dd682f")
+	)
+	(wire
+		(pts
+			(xy 93.98 50.8) (xy 83.82 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e04e5b-20e2-41d1-94f4-ff101220d135")
+	)
+	(wire
+		(pts
+			(xy 109.22 124.46) (xy 104.14 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782e2aa4-c44e-4846-b7a0-53e0e095e188")
+	)
+	(wire
+		(pts
+			(xy 93.98 96.52) (xy 83.82 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a21924-624a-4a0e-95c4-aa2448a4bfa4")
+	)
+	(wire
+		(pts
+			(xy 213.36 101.6) (xy 208.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a042632-36c6-4ac1-98c8-cf8fb3bc6cb4")
+	)
+	(wire
+		(pts
+			(xy 93.98 73.66) (xy 83.82 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e776adf-1cc3-4eb1-9e55-3a29b42a4974")
+	)
+	(wire
+		(pts
+			(xy 193.04 81.28) (xy 193.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc80803-4104-4104-8316-5bad6e17def0")
+	)
+	(wire
+		(pts
+			(xy 68.58 78.74) (xy 73.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a70c6f5-7a87-4f8f-bfa8-7c7ace287b4d")
+	)
+	(wire
+		(pts
+			(xy 213.36 78.74) (xy 208.28 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc7d7cb-50f8-4604-9a4f-dcde2199ef6a")
+	)
+	(wire
+		(pts
+			(xy 68.58 124.46) (xy 68.58 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de49f50-ddff-4405-84fb-a39b1fccbfa7")
+	)
+	(wire
+		(pts
+			(xy 109.22 55.88) (xy 104.14 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925c72d6-caa2-4d87-94df-940f47544920")
+	)
+	(wire
+		(pts
+			(xy 93.98 119.38) (xy 83.82 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9272074e-2b2c-4743-82d0-8e37e2ab5e9d")
+	)
+	(wire
+		(pts
+			(xy 93.98 101.6) (xy 83.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95c8a7dd-c55f-4194-9e40-2337a8b97bea")
+	)
+	(wire
+		(pts
+			(xy 68.58 101.6) (xy 68.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97df3402-6fb4-4081-bd85-d132a074e01c")
+	)
+	(wire
+		(pts
+			(xy 193.04 127) (xy 193.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999e7acb-39e5-4691-82e5-d24d58dcc653")
+	)
+	(wire
+		(pts
+			(xy 68.58 43.18) (xy 68.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a291cac-2339-4208-98fc-bedde27c1284")
+	)
+	(wire
+		(pts
+			(xy 93.98 104.14) (xy 88.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6b2b7b-1efc-43e0-bc4b-500eeeb0144b")
+	)
+	(wire
+		(pts
+			(xy 68.58 60.96) (xy 73.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0052126-4aa5-45de-a5d1-4f02b2be27e9")
+	)
+	(wire
+		(pts
+			(xy 68.58 106.68) (xy 68.58 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b7a13c-d586-44af-b6f7-cc0b55deadd4")
+	)
+	(wire
+		(pts
+			(xy 198.12 104.14) (xy 193.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a296b52b-ef08-48ad-aff0-3046f9cf2d7c")
+	)
+	(wire
+		(pts
+			(xy 172.72 73.66) (xy 177.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b4ffe4-94a7-4d1b-8ee6-190e68176c99")
+	)
+	(wire
+		(pts
+			(xy 198.12 124.46) (xy 187.96 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43d0e79-e090-4485-b0a5-31b1c1ca164b")
+	)
+	(wire
+		(pts
+			(xy 172.72 55.88) (xy 177.8 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7773859-c10f-4f4c-87ab-986542c16614")
+	)
+	(wire
+		(pts
+			(xy 88.9 83.82) (xy 83.82 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93512d8-e0ed-4ffc-9b72-04ea65f3555f")
+	)
+	(wire
+		(pts
+			(xy 172.72 124.46) (xy 177.8 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e636a9-39c2-4db4-8203-e01e9121bfa1")
+	)
+	(wire
+		(pts
+			(xy 109.22 104.14) (xy 104.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b436ae8a-0850-4e75-bbb0-8e1dc5bcf5b7")
+	)
+	(wire
+		(pts
+			(xy 198.12 101.6) (xy 187.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b606083c-f6de-4180-b03d-94cb371eb2f8")
+	)
+	(wire
+		(pts
+			(xy 172.72 124.46) (xy 172.72 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62355c8-b2ae-49d2-a5bd-4b4d8b5ba08e")
+	)
+	(wire
+		(pts
+			(xy 213.36 50.8) (xy 208.28 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78cdc2c-dc7f-4e1c-98e9-0db9c327cd0c")
+	)
+	(wire
+		(pts
+			(xy 172.72 119.38) (xy 172.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ae12c9-5aba-484f-8951-d1c41a04e4bd")
+	)
+	(wire
+		(pts
+			(xy 109.22 58.42) (xy 104.14 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b26637-cd03-4e9d-83fc-2a7aaff97db5")
+	)
+	(wire
+		(pts
+			(xy 172.72 50.8) (xy 177.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d613d5-8806-4607-a248-d7fd698ed0e1")
+	)
+	(wire
+		(pts
+			(xy 68.58 83.82) (xy 68.58 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37932d9-7b88-4d6f-9146-d716d9c07b65")
+	)
+	(wire
+		(pts
+			(xy 193.04 83.82) (xy 187.96 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7532929-2727-4658-a5d4-0179ade8de61")
+	)
+	(wire
+		(pts
+			(xy 68.58 96.52) (xy 73.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3f9506-1fb3-4a79-afa2-e1d82b6b03c9")
+	)
+	(wire
+		(pts
+			(xy 172.72 83.82) (xy 172.72 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc018a5f-e6ed-46c5-8509-b26cb66e78af")
+	)
+	(wire
+		(pts
+			(xy 73.66 129.54) (xy 68.58 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc250fc8-5b13-4ba8-90b7-a8c9e5c00810")
+	)
+	(wire
+		(pts
+			(xy 68.58 106.68) (xy 73.66 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ff2bbd-6df5-42c7-ac31-e14506505230")
+	)
+	(wire
+		(pts
+			(xy 68.58 50.8) (xy 68.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda92692-4fcd-4389-b517-4497fada3da6")
+	)
+	(wire
+		(pts
+			(xy 93.98 124.46) (xy 83.82 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea2f318-4a95-4e9a-9c75-9ea2533e37cd")
+	)
+	(wire
+		(pts
+			(xy 68.58 124.46) (xy 73.66 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3273d88-4320-4872-875e-9620cf37362e")
+	)
+	(wire
+		(pts
+			(xy 109.22 78.74) (xy 104.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b49192-1e53-4ceb-9f80-4eac6c97b241")
+	)
+	(wire
+		(pts
+			(xy 68.58 55.88) (xy 68.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4cdcd41-7260-4adf-a262-e7fcd7f1b2a7")
+	)
+	(wire
+		(pts
+			(xy 68.58 73.66) (xy 68.58 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66827d8-ab4e-496d-baf2-727638ce259e")
+	)
+	(wire
+		(pts
+			(xy 109.22 50.8) (xy 104.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e804df57-5394-499c-9ae8-4f393c60de16")
+	)
+	(wire
+		(pts
+			(xy 172.72 83.82) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b52978-3f66-4f5b-bc4d-83142607b13f")
+	)
+	(wire
+		(pts
+			(xy 88.9 58.42) (xy 88.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea251d85-e6e1-482c-9144-80ac70115a47")
+	)
+	(wire
+		(pts
+			(xy 198.12 55.88) (xy 187.96 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7cd92b-d54c-4576-9664-8d0938273073")
+	)
+	(wire
+		(pts
+			(xy 93.98 78.74) (xy 83.82 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc5ca5a-81d5-421b-b4e8-4bf5301555f9")
+	)
+	(wire
+		(pts
+			(xy 88.9 129.54) (xy 83.82 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f19fb262-075a-4240-a857-0edea96cdaea")
+	)
+	(wire
+		(pts
+			(xy 104.14 96.52) (xy 109.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1df42d1-99c2-4adf-b09d-d8b5cfae041b")
+	)
+	(wire
+		(pts
+			(xy 172.72 78.74) (xy 172.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3829fc3-f07f-4e95-88e1-5e72f1acc304")
+	)
+	(wire
+		(pts
+			(xy 172.72 96.52) (xy 177.8 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f63a8ea4-c901-4604-8b18-a7481dc43863")
+	)
+	(wire
+		(pts
+			(xy 198.12 50.8) (xy 187.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb255374-2748-40c6-8ca6-3d947ddf71fd")
+	)
+	(wire
+		(pts
+			(xy 68.58 96.52) (xy 68.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5055c0-1441-4828-b2a1-6c9d5febb0e5")
+	)
+	(wire
+		(pts
+			(xy 213.36 73.66) (xy 208.28 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd02ddb-f96c-49e0-810e-b3287d03634a")
+	)
+	(wire
+		(pts
+			(xy 68.58 73.66) (xy 73.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc4dce4-ce94-40f6-87cf-fa365eb8d637")
+	)
+	(wire
+		(pts
+			(xy 68.58 119.38) (xy 73.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0bdf8d-3545-4602-b22b-4deb9888a6b4")
+	)
+	(wire
+		(pts
+			(xy 172.72 101.6) (xy 177.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe52c386-ff35-4ad9-8e12-07767e40e52b")
+	)
+	(wire
+		(pts
+			(xy 93.98 127) (xy 88.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0379e4-2b18-48c4-9473-c5897d9708f6")
+	)
+	(hierarchical_label "ZN7_G"
+		(shape output)
+		(at 213.36 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0417a8a9-ade3-47c2-b168-6587756d8121")
+	)
+	(hierarchical_label "ZN5_B"
+		(shape output)
+		(at 213.36 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "190d9230-afe2-4e89-b13c-83194b017b40")
+	)
+	(hierarchical_label "ZN3_G"
+		(shape output)
+		(at 109.22 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bb48d5f-39bc-4d86-8d21-5914b87a1ebb")
+	)
+	(hierarchical_label "ZN5_R"
+		(shape output)
+		(at 213.36 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2274705d-ce64-401b-ba13-0e053b7cc6d0")
+	)
+	(hierarchical_label "ZN2_G"
+		(shape output)
+		(at 109.22 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "240fde3c-1578-436c-ad1f-4dc403dff93b")
+	)
+	(hierarchical_label "ZN7_B"
+		(shape output)
+		(at 213.36 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25203a79-eb74-435f-ad3b-40f279eab632")
+	)
+	(hierarchical_label "ZN6_G"
+		(shape output)
+		(at 213.36 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "256b79a6-8ecf-40af-9d1c-c0942ca928c0")
+	)
+	(hierarchical_label "ZN2_R"
+		(shape output)
+		(at 109.22 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cb059e8-c2b9-4271-a58e-06d48332d51a")
+	)
+	(hierarchical_label "ZN5_G"
+		(shape output)
+		(at 213.36 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31ed48ad-3083-4702-b1a9-dc5dacff5ba2")
+	)
+	(hierarchical_label "ZN4_G"
+		(shape output)
+		(at 109.22 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37b4ce4d-990c-414e-adad-246dbbec378d")
+	)
+	(hierarchical_label "ZN4_B"
+		(shape output)
+		(at 109.22 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61a9b38f-6553-4b65-aab8-cb80f3a88287")
+	)
+	(hierarchical_label "ZN8_R"
+		(shape output)
+		(at 213.36 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "631b15f4-672a-4f55-9879-b64f2d510f3c")
+	)
+	(hierarchical_label "ZN2_B"
+		(shape output)
+		(at 109.22 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63aec595-5d85-43f7-bc4d-5588e1dac72c")
+	)
+	(hierarchical_label "ZN3_B"
+		(shape output)
+		(at 109.22 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b1d0852-111a-43ab-893d-b6d30429569d")
+	)
+	(hierarchical_label "ZN7_R"
+		(shape output)
+		(at 213.36 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81eb77c2-c624-4c16-b359-7984cb400821")
+	)
+	(hierarchical_label "ZN1_R"
+		(shape output)
+		(at 109.22 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "928793ba-faa9-457b-a921-6114efe75e2b")
+	)
+	(hierarchical_label "ZN6_B"
+		(shape output)
+		(at 213.36 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9713f49a-b25d-4c84-98c7-5d36096e9267")
+	)
+	(hierarchical_label "ZN3_R"
+		(shape output)
+		(at 109.22 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9982055c-8bad-480d-b0c3-d695af86503a")
+	)
+	(hierarchical_label "ZN8_G"
+		(shape output)
+		(at 213.36 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa347d75-b549-48f5-9a26-a3a7fce06415")
+	)
+	(hierarchical_label "ZN1_B"
+		(shape output)
+		(at 109.22 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbd21738-8d5e-4a5e-98d0-b01f7a12ef55")
+	)
+	(hierarchical_label "ZN6_R"
+		(shape output)
+		(at 213.36 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9ddcbcd-675c-48f3-aaee-f4ab6598742d")
+	)
+	(hierarchical_label "ZN4_R"
+		(shape output)
+		(at 109.22 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e913c3f5-7295-4766-80e8-587f3117b015")
+	)
+	(hierarchical_label "ZN1_G"
+		(shape output)
+		(at 109.22 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec4d0e6e-c3a6-4000-bb82-fd0edc27d4e0")
+	)
+	(hierarchical_label "ZN8_B"
+		(shape output)
+		(at 213.36 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe04ba1c-58fb-4c9d-8add-26cf7a7fb9d9")
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:RES, ARRAY 4 RES 470Ω")
+		(at 203.2 73.66 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0da57566-2547-43e4-89b7-9270e694ccea")
+		(property "Reference" "RN19"
+			(at 203.2 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4D03WGJ0471T5E"
+			(at 190.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
+			(at 193.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604442566352400384"
+			(at 203.327 71.374 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "RES ARRAY 4 RES 470Ω 0603x4"
+			(at 203.2 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25510"
+			(at 203.2 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartID" "AP3012"
+			(at 203.2 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0f1c12af-2124-4c41-99bf-a79716107b33")
+		)
+		(pin "6"
+			(uuid "2fc9fd2c-918b-42f9-bbab-eb31429d95c1")
+		)
+		(pin "7"
+			(uuid "9c7a22f2-64c2-446c-80f6-6d467f7b3663")
+		)
+		(pin "5"
+			(uuid "fb1a79c5-35f2-495c-9732-9138aa97a13e")
+		)
+		(pin "3"
+			(uuid "4b29e4a9-318f-4b03-8767-f664c113eadf")
+		)
+		(pin "4"
+			(uuid "d224d170-e1b6-4257-9db8-337fd4891b9a")
+		)
+		(pin "1"
+			(uuid "6d65447e-3f15-4249-9975-fa2c6dbb82c2")
+		)
+		(pin "8"
+			(uuid "db6f34cb-c976-4b66-b0bc-474495a6f518")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "RN19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:LED, NH-Z3535RGBA-SG")
+		(at 78.74 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ff6db3b-ba69-42af-b812-08b5343ef97b")
+		(property "Reference" "D25"
+			(at 76.2 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NH-Z3535RGBA-SG"
+			(at 76.2 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-ARRAY-SMD_6P-L3.7-W3.5-TL-RD"
+			(at 57.15 99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874123.pdf"
+			(at 58.42 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED"
+			(at 78.74 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2874123"
+			(at 78.74 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "efd3fee6-16f6-430f-be14-ffdff271faa3")
+		)
+		(pin "1"
+			(uuid "caa8f64c-f30e-4eb8-8e1d-60118ec1605b")
+		)
+		(pin "2"
+			(uuid "e53e6f3c-52ce-4214-8b49-71f270c3cdda")
+		)
+		(pin "3"
+			(uuid "446a893c-aa1f-4098-988e-e6b09ba6f99d")
+		)
+		(pin "4"
+			(uuid "060b8c38-9d61-42f7-adb1-0753eed84e5c")
+		)
+		(pin "6"
+			(uuid "396b2f63-a5cf-4518-b9ad-5b21bdbc44cc")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:LED, NH-Z3535RGBA-SG")
+		(at 182.88 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e0eec8f-bec2-4832-9123-a7817afc8c39")
+		(property "Reference" "D30"
+			(at 180.34 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NH-Z3535RGBA-SG"
+			(at 180.34 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-ARRAY-SMD_6P-L3.7-W3.5-TL-RD"
+			(at 161.29 122.555 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874123.pdf"
+			(at 162.56 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED"
+			(at 182.88 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2874123"
+			(at 182.88 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "fca00b99-cdf2-48cd-b2d3-86a6365e336b")
+		)
+		(pin "1"
+			(uuid "e4a31713-8efd-4354-abfa-af439027e99f")
+		)
+		(pin "2"
+			(uuid "6a9e8810-ef13-42d0-a21d-487bb060aa45")
+		)
+		(pin "3"
+			(uuid "6f917e2f-810a-40d6-92f1-45b8dcc98467")
+		)
+		(pin "4"
+			(uuid "a542cf83-28d2-4c32-854a-f3d3cf3786bd")
+		)
+		(pin "6"
+			(uuid "950b7273-a3da-41a2-bf6c-cda4838cf1fe")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:LED, NH-Z3535RGBA-SG")
+		(at 78.74 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a800921-1377-4918-b490-4bbe0babe0ec")
+		(property "Reference" "D26"
+			(at 76.2 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NH-Z3535RGBA-SG"
+			(at 76.2 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-ARRAY-SMD_6P-L3.7-W3.5-TL-RD"
+			(at 57.15 122.555 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874123.pdf"
+			(at 58.42 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED"
+			(at 78.74 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2874123"
+			(at 78.74 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "7a127614-3913-44b0-9142-b47ac39d4fc9")
+		)
+		(pin "1"
+			(uuid "519f167f-d039-48c4-a2a1-5fbe3a648c2b")
+		)
+		(pin "2"
+			(uuid "4d2ff418-398e-4c73-85a5-87a144af0004")
+		)
+		(pin "3"
+			(uuid "226fd892-cff3-4513-99ee-f41de54de953")
+		)
+		(pin "4"
+			(uuid "5477380e-4c41-4ebc-9cd5-884a0c033b0f")
+		)
+		(pin "6"
+			(uuid "df495a85-5000-4930-b473-534b3b20efb4")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 172.72 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d945de5-77dd-45d0-883e-a1471c4a12a4")
+		(property "Reference" "#PWR063"
+			(at 172.72 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 172.72 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 172.72 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53cd6734-ebac-4f65-83f8-55dcf405552f")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:RES, ARRAY 4 RES 470Ω")
+		(at 99.06 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e6e292c-0422-4c17-b2a9-62454df200bc")
+		(property "Reference" "RN13"
+			(at 99.06 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4D03WGJ0471T5E"
+			(at 111.76 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
+			(at 109.22 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604442566352400384"
+			(at 98.933 60.706 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "RES ARRAY 4 RES 470Ω 0603x4"
+			(at 99.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25510"
+			(at 99.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartID" "AP3012"
+			(at 99.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d801b2d7-04dd-484a-b0fa-94f6fd6b8231")
+		)
+		(pin "6"
+			(uuid "1aec6add-2f7e-4545-9603-6dd2da9f1077")
+		)
+		(pin "7"
+			(uuid "8f2e21c3-5469-4ccd-b175-1325adece947")
+		)
+		(pin "5"
+			(uuid "06b9364d-5fbf-41a3-8c71-1e5490ef0f95")
+		)
+		(pin "3"
+			(uuid "3725a222-4dc9-4e52-bd28-40cc4f795797")
+		)
+		(pin "4"
+			(uuid "a98a3ee7-30a6-4bbc-b634-2c97484f9720")
+		)
+		(pin "1"
+			(uuid "975f5351-4924-4bdd-93ef-21894cb5b855")
+		)
+		(pin "8"
+			(uuid "ba334148-3d49-4787-8702-3404cddda82f")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "RN13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:RES, ARRAY 4 RES 470Ω")
+		(at 203.2 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "403fbaf9-1370-4a52-ae9f-d68a6f2f28f8")
+		(property "Reference" "RN17"
+			(at 203.2 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4D03WGJ0471T5E"
+			(at 190.5 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
+			(at 193.04 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604442566352400384"
+			(at 203.327 117.094 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "RES ARRAY 4 RES 470Ω 0603x4"
+			(at 203.2 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25510"
+			(at 203.2 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartID" "AP3012"
+			(at 203.2 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ef6b0dbc-90c2-4050-a13c-fc27a778055a")
+		)
+		(pin "6"
+			(uuid "370a5c1b-5522-497b-9314-24e24ae99c64")
+		)
+		(pin "7"
+			(uuid "28d3c7f5-3e9f-4403-a58a-d2c4a5f5729a")
+		)
+		(pin "5"
+			(uuid "1dc8ec71-aed9-41c1-9955-bbe7ef02c43b")
+		)
+		(pin "3"
+			(uuid "655e38df-67c3-4d39-90be-ff82bd45a937")
+		)
+		(pin "4"
+			(uuid "cc0935c4-15a4-4feb-8678-a63c60396bf2")
+		)
+		(pin "1"
+			(uuid "789852c6-807a-4c99-beee-0dd3673bc365")
+		)
+		(pin "8"
+			(uuid "a99de3e8-d8ad-49ce-baec-7756415b4dd9")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "RN17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:LED, NH-Z3535RGBA-SG")
+		(at 182.88 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "569405f0-e021-4c02-a6b2-5d25b5cf6e32")
+		(property "Reference" "D27"
+			(at 180.34 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NH-Z3535RGBA-SG"
+			(at 180.34 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-ARRAY-SMD_6P-L3.7-W3.5-TL-RD"
+			(at 161.29 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874123.pdf"
+			(at 162.56 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED"
+			(at 182.88 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2874123"
+			(at 182.88 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "87aab06c-4b10-43f5-bae7-7d589b1d3b3b")
+		)
+		(pin "1"
+			(uuid "c67d6dfb-57e9-4e82-8b76-5e2762891dec")
+		)
+		(pin "2"
+			(uuid "1cd200c7-26ae-4d7a-9346-b66484af14ec")
+		)
+		(pin "3"
+			(uuid "40ea4041-28c1-4cd7-8806-20c30af790c1")
+		)
+		(pin "4"
+			(uuid "e2f62f78-77f8-4521-8d68-fe8f8c9c4b67")
+		)
+		(pin "6"
+			(uuid "96263305-b804-4f5d-9a2d-76618d033ee7")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:RES, ARRAY 4 RES 470Ω")
+		(at 99.06 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59343a2c-7b2f-4b3e-a253-be79098dc35f")
+		(property "Reference" "RN14"
+			(at 99.06 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4D03WGJ0471T5E"
+			(at 86.36 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
+			(at 88.9 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604442566352400384"
+			(at 99.187 117.094 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "RES ARRAY 4 RES 470Ω 0603x4"
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25510"
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartID" "AP3012"
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "188e3a5a-8aaf-4d42-969d-8f16a96b79f1")
+		)
+		(pin "6"
+			(uuid "a7a89fca-df8b-4c95-83f5-96214574a02f")
+		)
+		(pin "7"
+			(uuid "1678333c-ce51-47fe-9a35-0bfaf9631fa3")
+		)
+		(pin "5"
+			(uuid "66f53c1b-1fe7-4111-8ca9-96f50da1adff")
+		)
+		(pin "3"
+			(uuid "bbbb0eab-4354-4fc0-8876-eefc7d388912")
+		)
+		(pin "4"
+			(uuid "89d0ae04-dbeb-40b0-a2e1-94d50af90b68")
+		)
+		(pin "1"
+			(uuid "b2802e3a-83ed-47e5-b699-1c3dd45a53bc")
+		)
+		(pin "8"
+			(uuid "417640be-3de5-40ab-b034-31baf99a9010")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "RN14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:RES, ARRAY 4 RES 470Ω")
+		(at 99.06 73.66 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5992f9a6-19f0-412c-8ea9-0a12c108cf09")
+		(property "Reference" "RN16"
+			(at 99.06 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4D03WGJ0471T5E"
+			(at 86.36 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
+			(at 88.9 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604442566352400384"
+			(at 99.187 71.374 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "RES ARRAY 4 RES 470Ω 0603x4"
+			(at 99.06 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25510"
+			(at 99.06 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartID" "AP3012"
+			(at 99.06 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c66279f4-67dd-4df2-ac4c-c4f463868ca7")
+		)
+		(pin "6"
+			(uuid "f81417a5-d191-4dc2-910a-2ede7e889c80")
+		)
+		(pin "7"
+			(uuid "3ab5abe7-8186-4025-acf2-9f33d2616da4")
+		)
+		(pin "5"
+			(uuid "d2d8382b-7066-4a8a-afe2-fbb64a98d67d")
+		)
+		(pin "3"
+			(uuid "8f3040e2-134b-4c2a-94a4-ba4e34187806")
+		)
+		(pin "4"
+			(uuid "cbbbe34d-5507-4545-b183-c7cd33e5f220")
+		)
+		(pin "1"
+			(uuid "461bc7fc-9f7d-4f68-bac0-fe03dcac4134")
+		)
+		(pin "8"
+			(uuid "4b5d5a40-1524-460c-9b3f-ed8c2970e020")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "RN16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:LED, NH-Z3535RGBA-SG")
+		(at 78.74 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74fcaf82-b990-4015-a3c9-c02a6c81d41b")
+		(property "Reference" "D24"
+			(at 76.2 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NH-Z3535RGBA-SG"
+			(at 76.2 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-ARRAY-SMD_6P-L3.7-W3.5-TL-RD"
+			(at 57.15 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874123.pdf"
+			(at 58.42 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED"
+			(at 78.74 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2874123"
+			(at 78.74 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "cfa018f4-c4c1-413f-a040-d101774ed531")
+		)
+		(pin "1"
+			(uuid "6200ae3f-c929-45c7-99b4-e7dd58ed7c9a")
+		)
+		(pin "2"
+			(uuid "f2a5ff38-f9d6-43a7-840f-adeb4d0a3c09")
+		)
+		(pin "3"
+			(uuid "b6861141-1ac9-42d6-92aa-56a587234659")
+		)
+		(pin "4"
+			(uuid "3d975fd1-0930-4bf8-9bdf-174cc0a273e1")
+		)
+		(pin "6"
+			(uuid "8c64b547-065a-413e-8c59-13f5f815d82e")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:LED, NH-Z3535RGBA-SG")
+		(at 78.74 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79be74ee-1f37-43bb-95c8-6643b853f54e")
+		(property "Reference" "D23"
+			(at 76.2 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NH-Z3535RGBA-SG"
+			(at 76.2 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-ARRAY-SMD_6P-L3.7-W3.5-TL-RD"
+			(at 57.15 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874123.pdf"
+			(at 58.42 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED"
+			(at 78.74 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2874123"
+			(at 78.74 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "485e5f33-ca9c-4708-b05a-50db1761f76e")
+		)
+		(pin "1"
+			(uuid "ebe04afc-188d-4e82-96a3-dc4addf58c23")
+		)
+		(pin "2"
+			(uuid "bd451e89-c240-4cf2-9363-c2ef81c2a775")
+		)
+		(pin "3"
+			(uuid "9e642307-b873-4c20-9b88-418ca2a976f4")
+		)
+		(pin "4"
+			(uuid "a299967c-ba7c-4a11-bb76-6bf18c73ef83")
+		)
+		(pin "6"
+			(uuid "6eea0001-e954-426e-8bba-83f281948c2a")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:RES, ARRAY 4 RES 470Ω")
+		(at 99.06 96.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aed8a83f-66fe-437b-90da-51a20ea6d9cb")
+		(property "Reference" "RN15"
+			(at 99.06 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4D03WGJ0471T5E"
+			(at 86.36 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
+			(at 88.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604442566352400384"
+			(at 99.187 94.234 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "RES ARRAY 4 RES 470Ω 0603x4"
+			(at 99.06 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25510"
+			(at 99.06 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartID" "AP3012"
+			(at 99.06 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "314e8f36-668d-4a85-b572-2af0000a99f1")
+		)
+		(pin "6"
+			(uuid "925bb150-ea4c-405d-b365-93d55342f694")
+		)
+		(pin "7"
+			(uuid "c513637c-d1c1-4593-a638-9532fd817c3c")
+		)
+		(pin "5"
+			(uuid "e05e26dc-b992-4074-a6b6-f45493c0cd49")
+		)
+		(pin "3"
+			(uuid "5e952c9d-2ad3-46a6-8794-9dcd55419bdd")
+		)
+		(pin "4"
+			(uuid "c7f53753-0949-4a82-9543-accadc4b473f")
+		)
+		(pin "1"
+			(uuid "7a2bf0d8-5b20-44d5-92c5-ab7e8ed7e4cb")
+		)
+		(pin "8"
+			(uuid "0c98e915-2747-45c2-8492-276c838f30a5")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "RN15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:RES, ARRAY 4 RES 470Ω")
+		(at 203.2 50.8 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5e1680d-919f-4302-a0f3-5693940bd3fb")
+		(property "Reference" "RN20"
+			(at 203.2 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4D03WGJ0471T5E"
+			(at 190.5 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
+			(at 193.04 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604442566352400384"
+			(at 203.327 48.514 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "RES ARRAY 4 RES 470Ω 0603x4"
+			(at 203.2 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25510"
+			(at 203.2 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartID" "AP3012"
+			(at 203.2 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "57d127fd-c456-49d2-af28-1ba0bf60ae23")
+		)
+		(pin "6"
+			(uuid "1fe190ca-22bb-4943-89d2-bb967ec34a3b")
+		)
+		(pin "7"
+			(uuid "92aec580-4af4-43d8-a71c-82e29ac11146")
+		)
+		(pin "5"
+			(uuid "e47b4aaf-69ea-44ca-b9ca-4fea4880fc5b")
+		)
+		(pin "3"
+			(uuid "64c2f00e-920e-471e-b207-7b37d7052422")
+		)
+		(pin "4"
+			(uuid "3af36c76-583b-4690-9f3c-1f83f2d9a932")
+		)
+		(pin "1"
+			(uuid "8937988c-2bd3-45e2-a670-bf10a762b094")
+		)
+		(pin "8"
+			(uuid "5341b296-5da1-48d0-9c77-74f1fedf8e55")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "RN20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 68.58 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d55e53a0-73f6-4d00-889e-19e8f2fc395f")
+		(property "Reference" "#PWR062"
+			(at 68.58 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 68.58 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 68.58 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d9a9695-126a-462a-93d9-5b879985b3f2")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:LED, NH-Z3535RGBA-SG")
+		(at 182.88 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7dc0987-1e4e-4050-85ae-171c158f0456")
+		(property "Reference" "D29"
+			(at 180.34 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NH-Z3535RGBA-SG"
+			(at 180.34 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-ARRAY-SMD_6P-L3.7-W3.5-TL-RD"
+			(at 161.29 99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874123.pdf"
+			(at 162.56 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED"
+			(at 182.88 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2874123"
+			(at 182.88 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "66493698-21bc-4f28-bffc-450e76013ba7")
+		)
+		(pin "1"
+			(uuid "c441c1c2-e1d8-454e-b84b-265c36d28f1b")
+		)
+		(pin "2"
+			(uuid "e2de0448-8bfb-4dc0-9b7c-ff583790f3cf")
+		)
+		(pin "3"
+			(uuid "b6d0f845-1d78-4227-9260-4bef0cdc5383")
+		)
+		(pin "4"
+			(uuid "80e82bf0-7b5f-4fc7-b868-e2fb1a785d57")
+		)
+		(pin "6"
+			(uuid "d3e63760-c354-4b19-bd1e-7205ed2c0a56")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:RES, ARRAY 4 RES 470Ω")
+		(at 203.2 96.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df8db759-3f3e-49aa-b670-a3891036729a")
+		(property "Reference" "RN18"
+			(at 203.2 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4D03WGJ0471T5E"
+			(at 190.5 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL"
+			(at 193.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604442566352400384"
+			(at 203.327 94.234 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "RES ARRAY 4 RES 470Ω 0603x4"
+			(at 203.2 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25510"
+			(at 203.2 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartID" "AP3012"
+			(at 203.2 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4712a834-571a-4b24-9fa1-42b55923d70e")
+		)
+		(pin "6"
+			(uuid "bd47b9c6-64dc-4ca4-91bb-118820371903")
+		)
+		(pin "7"
+			(uuid "796ef475-98ca-4a72-b7a4-6330e5246b0a")
+		)
+		(pin "5"
+			(uuid "c916bdaf-e722-44fa-937d-0b6b83da9119")
+		)
+		(pin "3"
+			(uuid "dadb6c75-4436-4ad5-9b7b-7cbc55dd2362")
+		)
+		(pin "4"
+			(uuid "e38ce192-456b-4a6a-8b65-628f6c2da0c1")
+		)
+		(pin "1"
+			(uuid "d366a481-1215-4360-ae14-4b6678e72a50")
+		)
+		(pin "8"
+			(uuid "5efc45cb-1852-4b96-a2be-ad88b5b0bbb9")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "RN18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AderbTech:LED, NH-Z3535RGBA-SG")
+		(at 86.36 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f166cf9a-f422-4135-9748-33f8a6d76927")
+		(property "Reference" "D5"
+			(at 86.36 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NH-Z3535RGBA-SG"
+			(at 86.36 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EASYEDA2KICAD:LED-ARRAY-SMD_6P-L3.7-W3.5-TL-RD"
+			(at 64.77 26.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874123.pdf"
+			(at 66.04 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED"
+			(at 86.36 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2874123"
+			(at 86.36 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "db5bb7cb-5010-4e12-bdf1-dc2ef15598f4")
+		)
+		(pin "2"
+			(uuid "a9bc40ef-409b-4668-8511-89605d85090a")
+		)
+		(pin "3"
+			(uuid "db13e6dd-9117-419e-9dad-a50c4934a69c")
+		)
+		(pin "1"
+			(uuid "5d450fec-1a29-4b40-89b1-989cf5e71d75")
+		)
+		(pin "4"
+			(uuid "65d1dbda-ac30-4cdf-8b55-0ffe08bf5467")
+		)
+		(pin "5"
+			(uuid "ef5b2421-bfc2-45de-beea-8727b853120d")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:LED, NH-Z3535RGBA-SG")
+		(at 182.88 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fdd090fa-ee66-4e84-a850-df5ae510cdab")
+		(property "Reference" "D28"
+			(at 180.34 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NH-Z3535RGBA-SG"
+			(at 180.34 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-ARRAY-SMD_6P-L3.7-W3.5-TL-RD"
+			(at 161.29 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874123.pdf"
+			(at 162.56 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED"
+			(at 182.88 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2874123"
+			(at 182.88 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "a083b22f-416f-4cbb-ad61-aefb31a07f4b")
+		)
+		(pin "1"
+			(uuid "60b94b92-6e62-415b-a108-cfe342b39eba")
+		)
+		(pin "2"
+			(uuid "b3ed7c24-7b06-47aa-a2d0-fafde45cf3d5")
+		)
+		(pin "3"
+			(uuid "0ab4cbf6-aa38-434c-b1ce-40c49a3ecdcb")
+		)
+		(pin "4"
+			(uuid "409915dd-6e83-4de8-9cff-7d0da82f9b44")
+		)
+		(pin "6"
+			(uuid "b5d3d894-4751-4762-b380-0a49a64339be")
+		)
+		(instances
+			(project "SDP006"
+				(path "/f34b2536-55b5-49c9-ba16-0501aafd3871/089b2625-71de-4844-93fc-e890bc946030"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
